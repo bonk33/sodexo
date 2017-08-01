@@ -125,7 +125,8 @@ body {
     
 }
 .hero-main-text {
-    margin-left: 2em;
+    margin: 1em auto;
+    width: 95%;
 }
 .hero-heading {
     color: hsl(240, 50%, 25%);

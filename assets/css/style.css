@@ -207,10 +207,8 @@ input[type="text"].form-input {
     justify-content: center;
     flex-wrap: wrap;
     position: relative;
-    border: 1px solid black;
 }
 .partner-icon {
-    border: 1px solid black;
     height: 120px;
     width: 180px;
 }

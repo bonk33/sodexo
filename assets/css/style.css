@@ -3,19 +3,19 @@
 ----------------------------------*/
 @font-face {
     font-family: SansaPro;
-    src: url('/assets/fonts/SansaPro-Light.otf') format('OTF');
+    src: url(SansaPro-Light.otf) format('OTF');
     font-weight: lighter;
 }
 
 @font-face {
     font-family: SansaPro;
-    src: url('/assets/fonts/SansaPro-Normal.ttf') format('TrueType');
+    src: url(SansaPro-Normal.ttf) format('TrueType');
     font-weight: normal;
 }
 
 @font-face {
     font-family: SansaPro;
-    src: url('/assets/fonts/SansaPro-SemiBold.ttf') format('TrueType');
+    src: url(SansaPro-SemiBold.ttf) format('TrueType');
     font-weight: bold;
 }
 
@@ -202,6 +202,7 @@ body {
     background-image: url('../png/select dropdown.png');
     background-repeat: no-repeat;
     background-position: 90% 50%;
+    text-align: center;
 }
 .homepage-registration-form {
     text-align: center;

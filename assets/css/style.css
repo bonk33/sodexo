@@ -41,6 +41,7 @@ body {
 .container {
     max-width: 1200px !important;
     margin: 0 auto !important;
+    position: relative;
 }
 
 /*---------------------------------
@@ -53,7 +54,6 @@ body {
     position: relative;
     padding-top: 115px;
     padding-bottom: 30px;
-    z-index: -10;
 }
 
 .navigation {
@@ -68,7 +68,7 @@ body {
     height: 132px;
     border-radius: 0.5em;
     background: white;
-    z-index: -5;
+    z-index: 3;
     position: absolute;
     top: -95px;
     left: 100px;
@@ -91,10 +91,18 @@ body {
     display: block;
     color: white;
     text-decoration: none;
-    margin: 0 1em;
+    margin: 0;
+    font-size: 1rem;
 }
 .navigation-link > img {
     display: inline;
+}
+.nav-login {
+    display: flex;
+    cursor: pointer;
+}
+.nav-login > img {
+    height: 1rem;
 }
 /*---------------------------------
         SECTION STYLES
@@ -126,6 +134,7 @@ body {
 .hero-main-text {
     margin: 1em auto;
     padding-left: 3em;
+    z-index: -1;
 }
 .hero-heading {
     color: hsl(240, 50%, 25%);
@@ -170,6 +179,12 @@ body {
     height: 70%;
     margin: 0 auto
 }
+.homepage-login-form {
+    background: hsl(0, 0%, 90%);
+    position: absolute;
+    right: 0;
+    z-index: 100;
+}
 .homepage-location-form, .homepage-registration-form {
     margin-top: 2em;
     margin-right: auto;
@@ -179,14 +194,7 @@ body {
 .homepage-location-form {
     text-align: center;
 }
-/*.homepage-location-form::before {
-    content: "";
-    position: relative;
-    background-image: url('/assets/png/location.map.png');
-    width: 100%;
-    height: 100%;
-    z-index: 100;
-}*/
+
 .homepage-location-form .form-arc {
     background-color: white;
     background-image: url('../svg/Pass shopping consumer-location-lock.svg');
@@ -300,6 +308,10 @@ input[type="text"].form-input {
 /*---------------------------------
               MISC
 ----------------------------------*/
+.hidden {
+    display: none;
+}
+
 .gutter-1em.row {
     margin-right: -1em;
     margin-left: -1em;

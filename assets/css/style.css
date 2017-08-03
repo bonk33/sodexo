@@ -3,19 +3,19 @@
 ----------------------------------*/
 @font-face {
     font-family: SansaPro;
-    src: url('/assets/fonts/SansaPro-Light.otf');
+    src: url('/assets/fonts/SansaPro-Light.otf') format('OTF');
     font-weight: lighter;
 }
 
 @font-face {
     font-family: SansaPro;
-    src: url('/assets/fonts/SansaPro-Normal.ttf');
+    src: url('/assets/fonts/SansaPro-Normal.ttf') format('TrueType');
     font-weight: normal;
 }
 
 @font-face {
     font-family: SansaPro;
-    src: url('/assets/fonts/SansaPro-SemiBold.ttf');
+    src: url('/assets/fonts/SansaPro-SemiBold.ttf') format('TrueType');
     font-weight: bold;
 }
 

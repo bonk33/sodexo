@@ -513,6 +513,10 @@ svg:not(:root) {
   .col-md-offset-1 {
     margin-left: 8.33333333%;
   }
+/*Custom style*/
+.col-md-offset-0-5 {
+  margin-left: 4.151515151%;
+}
   .col-md-offset-0 {
     margin-left: 0%;
   }

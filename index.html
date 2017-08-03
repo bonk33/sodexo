@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/flexboxgrid.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="shortcut icon" href="">
     <title>Pass Shopping</title>
@@ -12,12 +12,15 @@
     <div class="site-container">
         <header class="site-header">
             <nav class="navigation">
+                <div class="header-logo"></div>
                 <div class="navigation-list container">
                     <a href="#" class="navigation-link">I Buoni Pass Shopping</a>
                     <a href="#" class="navigation-link">Store Locator</a>
                     <a href="#" class="navigation-link">FAQ</a>
                     <a href="#" class="navigation-link">&nbsp;</a>
-                    <a href="#" class="navigation-link">Login</a>
+                    <a href="#" class="navigation-link">
+                         Login
+                    </a>
                 </div>
             </nav>
         </header>
@@ -37,8 +40,11 @@
             </div>
         </section>
         <section class="homepage-forms container">
-            <div class="gutter-1em row">
+            <div class="row">
                 <form class="col-md-8 homepage-location-form site-form">
+                    <div class="form-arc">
+                        <img src="assets/svg/Pass shopping consumer-location-lock.svg" alt="">
+                    </div>
                     <h3 class="form-heading">Ricerca il punto vendita piu vicino a te in base all'insegna o alla localita</h3>
                     <select name="" id="" class="search-sign form-input">
                         <option value="">Ricerca per insegna</option>
@@ -46,7 +52,10 @@
                     <input type="search" id="" name="" class="search-city form-input" placeholder="Ricerca per citta, CAP">
                     <button type="submit" class="form-button">Cerca</button>
                 </form>
-                <form class="col-md-4 homepage-registration-form site-form">
+                <form class="col-md-3 homepage-registration-form site-form">
+                    <div class="form-arc">
+                        <img src="assets/svg/Pass shopping consumer-registration-lock.svg" alt="">
+                    </div>
                     <h3 class="form-heading">Registrati!</h3>
                     &nbsp;
                     <input type="text" name="name" class="form-input" placeholder="Nome Cognome">

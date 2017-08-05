@@ -57,7 +57,7 @@ body {
 }
 
 .navigation {
-    background: linear-gradient(to right, hsl(357, 100%, 40%), hsl(357, 100%, 40%) 75%, hsl(25, 100%, 80%) 80%, hsl(357, 100%, 40%) 85%);
+    background: linear-gradient(to right, hsl(357, 100%, 40%), hsl(357, 100%, 40%) 77%, hsl(30, 80%, 70%) 84%, hsl(357, 100%, 40%) 94%);
     color: white;
     position: relative;
 }

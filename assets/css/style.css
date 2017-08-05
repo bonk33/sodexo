@@ -177,7 +177,7 @@ body {
 .form-arc > img {
     width: 70%;
     height: 70%;
-    margin: 0 auto
+    margin: 0 auto;
 }
 .homepage-login-form {
     background: hsl(0, 0%, 90%);
@@ -193,10 +193,25 @@ body {
 }
 .homepage-location-form {
     text-align: center;
+    position: relative;
+}
+
+.homepage-location-form::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: url('../png/Location-map.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    
 }
 
 .homepage-location-form .form-arc {
-    background-color: white;
+    background-color: hsla(0, 0%, 100%, 0.8);;
     background-image: url('../svg/Pass shopping consumer-location-lock.svg');
     background-repeat: no-repeat;
     background-position: center center;

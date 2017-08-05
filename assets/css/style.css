@@ -60,7 +60,6 @@ body {
     background: linear-gradient(to right, hsl(357, 100%, 40%), hsl(357, 100%, 40%) 75%, hsl(25, 100%, 80%) 80%, hsl(357, 100%, 40%) 85%);
     color: white;
     position: relative;
-    padding: 2px;
 }
 
 .header-logo {
@@ -85,6 +84,8 @@ body {
     display: flex;
     justify-content: space-between;
     text-transform: uppercase;
+    z-index: 5;
+    background: inherit;
 }
 
 .navigation-link {
@@ -94,6 +95,7 @@ body {
     margin: 0;
     font-size: 1rem;
 }
+
 .navigation-link > img {
     display: inline;
 }

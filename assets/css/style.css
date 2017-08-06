@@ -36,6 +36,7 @@ body {
     font-family: SansaPro, sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
+    min-width: 320px;
 }
 
 .container {
@@ -231,6 +232,10 @@ body {
     background-image: url('../png/select dropdown.png');
     background-repeat: no-repeat;
     background-position: 90% 50%;
+    text-align: center;
+    text-align-last: center;
+}
+.search-sign > options {
     text-align: center;
 }
 .homepage-registration-form {

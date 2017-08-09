@@ -367,6 +367,10 @@ input[type="text"].form-input {
     width: 750px;
     height: 545px; 
 }
+.store-locations-map.milan {
+    background: url('../png/Pass shopping consumer-milan-location-map.png');
+    background-repeat: no-repeat;
+}
 .form-partner {
     margin: 0 auto;
 }
@@ -409,6 +413,9 @@ input[type="text"].form-input {
     justify-content: space-between;
     padding: 0;
 }
+.side-form.milan {
+    justify-content: start;
+}
 .promo {
     border: 3px solid hsl(0, 0%, 80%);
     background: hsl(0, 0%, 90%);
@@ -422,6 +429,10 @@ input[type="text"].form-input {
     padding: 0;
     margin: 0;
 }
+.side .promo {
+    display: block;
+}
+
 .bg3 {
     background: url('../png/Pass shopping 3bg.png');
     background-repeat: no-repeat;
@@ -461,4 +472,32 @@ input[type="text"].form-input {
     font-weight: bold;
     text-transform: uppercase;
     font-size: 1rem;
+}
+
+.store-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 1em;
+}
+.store-box {
+    width: 225px;
+    height: 170px;
+    border: 1px solid hsl(0, 0%, 80%);
+    padding: 1em;
+}
+.store-box img {
+    width: 150px;
+    height: 80px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    left: 20px;
+}
+.store-box ul {
+    padding: 0;
+    margin: 0;
+}
+.store-box ul li {
+    list-style: none;
 }

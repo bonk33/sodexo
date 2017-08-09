@@ -501,3 +501,16 @@ input[type="text"].form-input {
 .store-box ul li {
     list-style: none;
 }
+.divider {
+    height: 4px;
+    background: hsl(0, 0%, 80%);
+}
+.descrizione {
+    width: 750px;
+}
+.descrizione > h3, .descrizione > p {
+    font-size: 1rem;
+}
+.top-stuff.ds {
+    margin-top: 4em;
+}

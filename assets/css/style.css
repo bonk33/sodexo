@@ -40,7 +40,7 @@ body {
 }
 
 .container {
-    max-width: 1200px !important;
+    max-width: 1140px !important;
     margin: 0 auto !important;
     position: relative;
 }
@@ -56,7 +56,12 @@ body {
     padding-top: 115px;
     padding-bottom: 30px;
 }
-
+.header-pass-shopping {
+    width: 200px;
+    position: absolute;
+    right: 35px;
+    top: -100px;
+}
 .navigation {
     background: linear-gradient(to right, hsl(357, 100%, 40%), hsl(357, 100%, 40%) 77%, hsl(30, 80%, 70%) 84%, hsl(357, 100%, 40%) 94%);
     color: white;
@@ -332,17 +337,128 @@ input[type="text"].form-input {
     font-weight: normal;
 }
 /*---------------------------------
+            PAGE LAYOUT
+----------------------------------*/
+.top-stuff {
+    display: flex;
+}
+.side-form {
+    width: 350px;
+}
+.main {
+    flex: 0 0 750px;
+}
+.side {
+    flex: 0 0 350px;
+    margin-left: 1.5em;
+    padding: 0;
+}
+/*---------------------------------
+            SEACRCH MAIN
+----------------------------------*/
+.search-main > .container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.store-locations-map {
+    background: url('../png/locations-full-map.png');
+    background-repeat: no-repeat;
+    width: 750px;
+    height: 545px; 
+}
+.form-partner {
+    margin: 0 auto;
+}
+.main-search-location-form {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5em 0 2em 0;
+    background: hsl(0, 0%, 90%);
+}
+.main-search-location-form > .form-input {
+    width: 95%;
+    margin: 1em auto;
+}
+.main-search-location-form > button {
+    width: 90%;
+    margin: 0 auto;
+}
+.main-search-location-form .form-arc {
+    background-color: hsl(0, 0%, 100%);
+    background-image: url('../svg/Pass shopping consumer-location-lock.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 60% 60%;
+}
+
+/*---------------------------------
               MISC
 ----------------------------------*/
 .hidden {
     display: none;
 }
-
-.gutter-1em.row {
-    margin-right: -1em;
-    margin-left: -1em;
+.row.pg7 {
+    align-items: flex-start;
 }
-.gutter-1em.row > [class^="col-"], .gutter-1em.row > [class^=" col-"] {
-    padding-right: 1em;
-    padding-left: 1em;
+.side-form {
+    height: 545px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+}
+.promo {
+    border: 3px solid hsl(0, 0%, 80%);
+    background: hsl(0, 0%, 90%);
+    display: flex;
+    padding: 2em;
+}
+.promo > h3 {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    color: hsl(0, 0%, 70%);
+    padding: 0;
+    margin: 0;
+}
+.bg3 {
+    background: url('../png/Pass shopping 3bg.png');
+    background-repeat: no-repeat;
+    width: 745px;
+    height: 310px;
+}
+.bg3 > div {
+    width: 360px;
+    height: 150px;
+    position: relative;
+    left: 150px;
+    top: 10px;
+}
+.bg3 button {
+    width: inherit;
+}
+.side-thing {
+    border: 3px solid hsl(0, 0%, 80%);
+}
+.side-thing {
+    text-align: center;
+}
+.side-thing  h4 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    border-bottom: 3px solid hsl(0, 0%, 80%);
+    padding: 2em;
+    padding-top: 0;
+}
+.side-thing ul {
+    margin: 0;
+    padding: 2em;
+}
+.side-thing ul li {
+    list-style: none;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1rem;
 }
